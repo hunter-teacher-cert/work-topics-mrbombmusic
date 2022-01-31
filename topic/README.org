@@ -1,12 +1,11 @@
 * Project Readme
 
 * List group members here
- - name 1
- - name 2
- - etc
+ - Liam Baum
+ - Lyuba Fridman
+ - Jovani Cardenas Tapia
 
 * Describe your topic here
 
- 
-* Describe any additional files you've included here 
- 
+
+* Describe any additional files you've included here
