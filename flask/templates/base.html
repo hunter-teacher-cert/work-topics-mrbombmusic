@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+      {% if title %}
+        <title>{{ title }}</title>
+        {% else %}
+        <<title>Hi Everybody</title>
+        {% endif %}
+    </head>
+    <body style="background-color:LemonChiffon">
+      <div>Go to:
+        <ul>
+          <li><a href="/greetings">Greetings</a></li>
+          <li><a href="/rand">Random Numbers</a></li>
+          <li><a href="/find">Find an Actor</a></li>
+          </ul>
+          </div>
+          <hr>
+          {% block content %}{% endblock %}
+      </body>
+      </html>
