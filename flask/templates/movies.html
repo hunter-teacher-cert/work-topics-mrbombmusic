@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>Click <a href="/find">Here</a> to search for another actor</h3>
+<h1 style="color:dodgerblue">This is the filmography of {{ actor }}</h1>
+{% for movie in movies %}
+<ul>
+  <li style="font-size:24px">{{movie}}</li>
+  </ul>
+  {% endfor %}
+
+  {% endblock %}

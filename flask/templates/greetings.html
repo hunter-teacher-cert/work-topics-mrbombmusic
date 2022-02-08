@@ -1,0 +1,14 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+      {% for user in users %}
+      <div>  <ul>
+        <li style="color:{{user.color}};font-size: 40px"> {{user.greeting}}, {{ user.username }}!</li>
+        </ul> <div/>
+        {% endfor %}
+        <hr>
+        <p style="font-size:40px">This is a website for choosing random numbers and<br>
+           finding out what movies and TV shows a person has acted in</p>
+
+{% endblock %}

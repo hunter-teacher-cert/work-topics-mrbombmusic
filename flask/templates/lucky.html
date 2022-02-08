@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+     <h1>Your lucky number is: </h1>
+
+{% if fontColor %}
+<h2 style="font-size:{{number}}px; color:red; position:relative"> {{ number }}</h2>
+{% else %}
+<h2 style="font-size:{{number}}px; color:blue"> {{ number }}</h2>
+
+
+{% endif %}
+<hr>
+<div>
+<h3 style="position:fixed">Refresh the page for a new lucky number!</h3>
+</div>
+{% endblock %}
