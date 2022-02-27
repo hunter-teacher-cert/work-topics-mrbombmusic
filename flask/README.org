@@ -15,11 +15,9 @@ I assume that installing this library is necessary to run this app.<br>
 'pip install cinemagoer'
 
 ### Issues
-- I had issues with the session feature. I originally wanted to store the names of all actors which had been searched during the user session but couldn't figure out how to store all the names in an array as a session variable. So I just tried a simple counter to keep track of how many actors had been searched but it seemed to update twice
-due to a redirect after searching an actor's name. Also, it never seemed to reset when I stopped Flask and reran the program.
+- I had issues with the session feature. I originally wanted to store the names of all actors which had been searched during the user session but couldn't figure out how to store all the names in an array as a session variable. So I just tried a simple counter to keep track of how many actors had been searched but it seemed to update twice due to a redirect after searching an actor's name. Also, it never seemed to reset when I stopped Flask and reran the program.
 
-- Part of the app which included forms was made using the info on the Mega-Tutorial and part of it was written using the examples provided in class, so there are different ways of doing the same thing. I found the examples from class much easier to follow and this also made it easier to include css for those form pages. As a result, the page with the examples form class (Match actors) includes css
-but the page that uses the Mega tutorial way of using forms (find actor) does not really include css.
+- Part of the app which included forms was made using the info on the Mega-Tutorial and part of it was written using the examples provided in class, so there are different ways of doing the same thing. I found the examples from class much easier to follow and this also made it easier to include css for those form pages. As a result, the page with the examples form class (Match actors) includes css but the page that uses the Mega tutorial way of using forms (find actor) does not really include css.
 
 - The random actor page may occasionally produce an error due to the random ID number that was generated is not assigned to any actor on IMDb. I tried solving this with a while loop but it didn't seem to work out.
 
