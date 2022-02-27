@@ -15,8 +15,12 @@
   <p>{{form.submit() }}</p>
   </form>
 
-  <h5>Information is acquired from <a href="https://www.imdb.com/">IMDB.com</a></h5>
-  <p style="font-size:18px">This site uses <a href="https://cinemagoer.readthedocs.io/en/latest/index.html">Cinemagoer</a>
-    which is a python library for accessing data from IMDb</p>
 
+    <h3>You have searched for the following {{count}} actors: </h3>
+    {% for actor in actorList %}
+    <ul>
+      <li style="font-size:18px">{{actor}}</li>
+      </ul>
+      {% endfor %}
+    <link rel="stylesheet" href="/static/style.css">
   {% endblock %}

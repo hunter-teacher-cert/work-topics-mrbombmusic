@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Find out if two actors have been in the same movie together</h1>
+
+<div class="match">
+<form method="POST">
+  Enter An Actor Name:
+  <br>
+  <input type="text" name="actor1" placeholder="Write actor name here">
+  <br>
+  Enter Another Actor Name:
+  <br>
+  <input type="text" name="actor2" placeholder="Write actor name here"
+  <div>
+  <br>
+  <button class='button'>Search Movies</button>
+  </form>
+  <div>
+    {% if actor1 %}
+  {% if result %}
+  <h2>{{actor1}} and {{actor2}} have the following shared acting credits: </h2>
+  {% for movie in result %}
+  <ul>
+    <li style="font-size:24px">{{movie}}</li>
+    </ul>
+    {% endfor %}
+    {% else %}
+    <h2>{{actor1}} and {{actor2}} do not share any acting credits </h2>
+    {% endif %}
+      {% endif %}
+</div>
+    <link rel="stylesheet" href="/static/style.css">
+{% endblock %}

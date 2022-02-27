@@ -1,0 +1,36 @@
+/* CSS templates for input forms : https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
+
+.match{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select  {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #ff0000;
+}
+
+/* CSS template for button: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic */
+
+.button {
+  background-color: #ffaa00;
+  border: 4px solid #000000;
+  border-radius: 16px;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

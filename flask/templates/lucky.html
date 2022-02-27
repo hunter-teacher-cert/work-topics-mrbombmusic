@@ -3,17 +3,15 @@
 
 {% block content %}
 
-     <h1>Your lucky number is: </h1>
+     <h1>Your Random Actor is: </h1>
 
-{% if fontColor %}
-<h2 style="font-size:{{number}}px; color:red; position:relative"> {{ number }}</h2>
-{% else %}
-<h2 style="font-size:{{number}}px; color:blue"> {{ number }}</h2>
+     <h2 style="font-size:32px; color:red; position:relative"> {{ number }}</h2>
 
+     <h1>A random movie or TV show that {{ number }} has appeared in is: </h1>
+     <h2 style="font-size:32px; color:blue; position:relative"> {{ movie }}</h2>
 
-{% endif %}
 <hr>
 <div>
-<h3 style="position:fixed">Refresh the page for a new lucky number!</h3>
+<h3 style="position:fixed">Refresh the page for a new random actor!</h3>
 </div>
 {% endblock %}
