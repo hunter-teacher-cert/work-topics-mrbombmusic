@@ -1,3 +1,15 @@
-* Last Name:
-* First Name:
+* Last Name: Baum
+* First Name: Liam
 
+**Homework Questions**
+
+Briefly describe the pros and cons of this method of sentence generation
+In what ways might this be useful as a student? A teacher? What are its shortcomings?
+
+Pros: For a teacher, this is a good way to show students how to call functions within other functions or multiple layers of that.
+The complex comound sentence function goes through 4 layers of internal function calls. This could also be a good exercise for practicing code tracing.
+Also for students, this provides a good introduction to text generation while also reinforcing specific grammtical concepts
+or possibly introducing them to more formal sentence structures (I wasn't really aware of the offical names of these types of sentences)
+
+Cons: Pretty flimsy in terms of actual results. Only as good as the corpus of words you provide to it.
+But even if you provide it with more input possibilities, some randomly generated sentences could still be grammtically incorrect.
