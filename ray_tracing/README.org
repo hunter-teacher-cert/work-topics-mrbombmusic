@@ -1,3 +1,6 @@
-* Last Name:
-* First Name:
+* Last Name: Baum
+* First Name: Liam
 
+[REPL Link](https://raytracer-js.mrbombmusic.repl.co/)
+
+I have also posted the homework code file as hunter.js in this repo in case the link to the repl doesn't work.
