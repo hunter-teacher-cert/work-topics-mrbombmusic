@@ -1,3 +1,5 @@
-* Last Name:
-* First Name:
+* Last Name: Baum
+* First Name: Liam
 
+Code Along file includes finished code for connecting segments of Cube.
+Homework includes code which makes what I belive is a Diamond prism. It is basically two square-based pyramids connected at the base.
